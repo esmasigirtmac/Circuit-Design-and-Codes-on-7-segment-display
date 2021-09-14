@@ -1,0 +1,121 @@
+A51 MACRO ASSEMBLER  UYGULAMA                                                             05/03/2020 17:46:33 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\uygulama.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE uygulama.asm SET(SMALL) DEBUG PRINT(.\Listings\uygulama.lst) OBJECT(.\O
+                      bjects\uygulama.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 00H
+0000 800B              2     SJMP START
+000B                   3     ORG 00BH
+000B 806C              4     SJMP KESME
+000D                   5     START:
+000D 2090FD            6     JB P1.0, START
+0010 8000              7     SJMP MAIN
+0012                   8     MAIN:
+0012 7D07              9     MOV R5, #7H ;1 SNYE YE YACAK TIMER DONGUSU DEGISENI
+0014 7C05             10     MOV R4, #05H ;YAKMA VE SONME DURUMLARI GECIS VE TIMER DURUM ICIN DEGISKENI
+0016 758901           11     MOV TMOD, #01H ; 16BIT SAYICI IÇIN
+0019 758C0F           12     MOV TH0,#00Fh
+001C 758A0F           13     MOV TL0,#00Fh
+001F C28D             14     CLR TF0
+0021 D28C             15     SETB TR0
+0023 D2A9             16     SETB ET0 ;TIMER 0 IN KESME AKTIVASYONU 
+0025 D2AF             17     SETB EA ;KESME BASLAMASI
+0027                  18     RUN:
+0027 BC053E           19     CJNE R4,#05H,STOP
+002A C291             20     CLR P1.1
+002C C292             21     CLR P1.2
+002E C293             22     CLR P1.3
+0030 C296             23     CLR P1.6
+0032 C2A0             24     CLR P2.0
+0034 D2A0             25     SETB P2.0    ;c harfi olusur.
+0036 D291             26     SETB P1.1
+0038 D292             27     SETB P1.2
+003A D293             28     SETB P1.3
+003C D296             29     SETB P1.6
+                      30     
+                      31     
+003E C296             32     CLR P1.6
+0040 C293             33     CLR P1.3
+0042 C2A1             34     CLR P2.1    ;2 rakami olusur.
+0044 D2A1             35     SETB P2.1
+0046 D293             36     SETB P1.3
+0048 D296             37     SETB P1.6
+                      38     
+004A C292             39     CLR P1.2
+004C C295             40     CLR P1.5
+004E C297             41     CLR P1.7
+0050 C2A2             42     CLR P2.2
+0052 D2A2             43     SETB P2.2    ;S harfi olusur
+0054 D292             44     SETB P1.2
+0056 D295             45     SETB P1.5
+0058 D297             46     SETB P1.7
+                      47     
+005A C292             48     CLR P1.2
+005C C293             49     CLR P1.3
+005E C2A3             50     CLR P2.3
+0060 D2A3             51     SETB P2.3    ;E harfi olusur
+0062 D292             52     SETB P1.2
+0064 D293             53     SETB P1.3
+0066 80BF             54     SJMP RUN
+0068                  55     STOP:
+0068 BC0422           56     CJNE R4,#04H,EXIT
+006B C297             57     CLR P1.7
+A51 MACRO ASSEMBLER  UYGULAMA                                                             05/03/2020 17:46:33 PAGE     2
+
+006D C291             58     CLR P1.1
+006F C292             59     CLR P1.2
+0071 C293             60     CLR P1.3
+                      61     
+0073 C295             62     CLR P1.5
+0075 C296             63     CLR P1.6
+0077 80EF             64     SJMP STOP
+0079                  65     KESME:
+0079 C28D             66     CLR TF0
+007B 758C0F           67     MOV TH0,#00Fh
+007E 758A0F           68     MOV TL0,#00Fh
+0081 DD07             69     DJNZ R5,DEVAM
+0083 7D14             70     MOV R5,#14H
+0085 1C               71     DEC R4
+0086 BC0301           72     CJNE R4,#03H,DEVAM
+0089 32               73     RETI
+008A                  74     DEVAM:
+008A D28C             75     SETB TR0
+008C 32               76     RETI
+008D                  77     EXIT:
+008D 02000D           78     LJMP START
+                      79     END
+A51 MACRO ASSEMBLER  UYGULAMA                                                             05/03/2020 17:46:33 PAGE     3
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DEVAM. . . . . . .  C ADDR   008AH   A   
+EA . . . . . . . .  B ADDR   00A8H.7 A   
+ET0. . . . . . . .  B ADDR   00A8H.1 A   
+EXIT . . . . . . .  C ADDR   008DH   A   
+KESME. . . . . . .  C ADDR   0079H   A   
+MAIN . . . . . . .  C ADDR   0012H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+RUN. . . . . . . .  C ADDR   0027H   A   
+START. . . . . . .  C ADDR   000DH   A   
+STOP . . . . . . .  C ADDR   0068H   A   
+TF0. . . . . . . .  B ADDR   0088H.5 A   
+TH0. . . . . . . .  D ADDR   008CH   A   
+TL0. . . . . . . .  D ADDR   008AH   A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR0. . . . . . . .  B ADDR   0088H.4 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

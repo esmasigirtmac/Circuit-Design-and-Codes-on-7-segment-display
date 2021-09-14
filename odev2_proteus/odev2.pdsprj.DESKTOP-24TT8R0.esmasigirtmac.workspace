@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="1">
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffff6e0100001500000074040000db020000</PLACEMENT>
+  <WINDOW type="default" module="ISIS"/>
+  <WINDOW type="default" module="VSMDEBUG"/>
+ </FRAME>
+ <MODULE name="VSMDEBUG">
+  <PWI>
+   <POPUP w="400" x="5" flags="00000002" y="106" h="100" pid="0" iid="-1">
+    <PROPERTIES>
+     <ITEM name="Message Column Width">142</ITEM>
+     <ITEM name="ShowGrid">No</ITEM>
+     <ITEM name="Source Column Width">100</ITEM>
+     <ITEM name="Time Column Width">120</ITEM>
+     <ITEM name="Version">100</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="350" x="5" flags="00000032" y="106" h="100" pid="1" iid="-1">
+    <PROPERTIES>
+     <ITEM name="Address Column Width">83</ITEM>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="Name Column Width">83</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">No</ITEM>
+     <ITEM name="ShowWatchPoint">Yes</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Value Column Width">83</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="Watch Expression Column Width">83</ITEM>
+     <ITEM name="nItems">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="184" x="5" flags="00000008" y="106" h="226" pid="1" iid="2">
+    <PROPERTIES/>
+   </POPUP>
+   <POPUP w="1" x="5" flags="0000000a" y="106" h="1" pid="3" iid="2">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="1" x="5" flags="0000000a" y="106" h="1" pid="2" iid="2">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000080</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="100" x="6" flags="0000002a" y="107" h="30" pid="1000" iid="2">
+    <PROPERTIES>
+     <ITEM name="Breakpoint 0">"",000B,0000,519B,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 1">"START",000D,0000,9136,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 10">"MAIN",001F,000D,60BD,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 11">"MAIN",0021,000F,5253,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 12">"MAIN",0023,0011,923C,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 13">"MAIN",0025,0013,25D8,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 14">"RUN",0027,0000,1BB5,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 15">"RUN",0027,0000,3080,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 16">"RUN",002A,0003,2FD9,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 17">"RUN",002C,0005,2E99,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 18">"RUN",002E,0007,EE58,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 19">"RUN",0030,0009,ED98,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 2">"START",000D,0000,2CA7,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 20">"RUN",0032,000B,EFE8,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 21">"RUN",0034,000D,65D7,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 22">"RUN",0036,000F,672B,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 23">"RUN",0038,0011,666B,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 24">"RUN",003A,0013,A6AA,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 25">"RUN",003C,0015,A56A,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 26">"RUN",003E,0017,0905,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 27">"RUN",0040,0019,EE58,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 28">"RUN",0042,001B,8213,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 29">"RUN",0044,001D,67DB,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 3">"START",0010,0003,F38C,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 30">"RUN",0046,001F,A6AA,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 31">"RUN",0048,0021,A56A,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 32">"RUN",004A,0023,2E99,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 33">"RUN",004C,0025,ECD8,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 34">"RUN",004E,0027,2D59,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 35">"RUN",0050,0029,2E69,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 36">"RUN",0052,002B,C5EA,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 37">"RUN",0054,002D,666B,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 38">"RUN",0056,002F,A42A,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 39">"RUN",0058,0031,65AB,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 4">"MAIN",0012,0000,575C,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 40">"RUN",005A,0033,2E99,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 41">"RUN",005C,0035,EE58,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 42">"RUN",005E,0037,EEA8,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 43">"RUN",0060,0039,C2C0,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 44">"RUN",0062,003B,666B,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 45">"RUN",0064,003D,A6AA,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 46">"RUN",0066,003F,4974,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 47">"STOP",0068,0000,F819,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 48">"STOP",0068,0000,D856,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 49">"STOP",006B,0003,2D59,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 5">"MAIN",0012,0000,1FB2,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 50">"STOP",006D,0005,2FD9,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 51">"STOP",006F,0007,2E99,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 52">"STOP",0071,0009,EE58,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 53">"STOP",0073,000B,2C19,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 54">"STOP",0075,000D,ECD8,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 55">"STOP",0077,000F,ED98,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 56">"STOP",0079,0011,B718,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 57">"KESME",007B,0000,A4F1,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 58">"KESME",007B,0000,60BD,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 59">"KESME",007D,0002,F9E3,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 6">"MAIN",0014,0002,62FF,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 60">"KESME",0080,0005,0AE2,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 61">"KESME",0083,0008,D621,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 62">"KESME",0085,000A,2922,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 63">"KESME",0087,000C,72EA,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 64">"KESME",0088,000D,17DD,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 65">"KESME",008B,0010,5BFE,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 66">"DEVAM",008C,0000,5436,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 67">"DEVAM",008C,0000,5253,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 68">"DEVAM",008E,0002,5BFE,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 69">"EXIT",008F,0000,AAB1,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 7">"MAIN",0016,0004,A655,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 70">"EXIT",008F,0000,F3E7,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 71">"START",000E,0001,4624,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 8">"MAIN",0019,0007,F9E3,5F0D,1
+</ITEM>
+     <ITEM name="Breakpoint 9">"MAIN",001C,000A,0AE2,5F0D,1
+</ITEM>
+     <ITEM name="CaseSensitive">No</ITEM>
+     <ITEM name="DISPADDRS">Yes</ITEM>
+     <ITEM name="DISPLNUMS">No</ITEM>
+     <ITEM name="DISPOPCODES">No</ITEM>
+     <ITEM name="FIXUPBPTS">Yes</ITEM>
+     <ITEM name="WordsOnly">No</ITEM>
+     <ITEM name="nBreakpoints">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+  </PWI>
+ </MODULE>
+</WORKSPACE>
